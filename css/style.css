@@ -417,7 +417,7 @@ a {
   align-items: center;
   z-index: 12;
   padding: 0px 100px;
-  background-color: #fff;
+  background-color: #f9f9f9;
 }
 .kioto_tm_all_wrap .leftpart_inner {
   width: 100%;
@@ -530,7 +530,7 @@ a {
   width: 100%;
   min-height: 100vh;
   position: relative;
-  background-color: #f9f9f9;
+  background-color: #fff;
   padding-left: 400px;
 }
 .kioto_tm_all_wrap .rightpart_in {
@@ -657,13 +657,13 @@ a {
   font-size: 45px;
   font-weight: 700;
   line-height: 1.3;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 .kioto_tm_home .name {
   position: relative;
   font-size: 17px;
   margin-bottom: 12px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   display: inline-block;
 }
 .kioto_tm_home .left {
