@@ -275,6 +275,7 @@ a {
 .abs_image img {
   opacity: 0;
   min-width: 100%;
+  aspect-ratio: 1/1;
 }
 .abs_image .main {
   position: absolute;
