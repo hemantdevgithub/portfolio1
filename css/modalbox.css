@@ -118,7 +118,7 @@
 }
 .kioto_tm_modalbox .description_wrap {
   scrollbar-width: thin;
-  scrollbar-color: #bbb #fff;
+  scrollbar-color: #800000 #fff;
 }
 .kioto_tm_modalbox .description_wrap:-webkit-scrollbar-track {
   background: #fff;

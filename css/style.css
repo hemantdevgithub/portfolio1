@@ -1925,3 +1925,51 @@ a {
     padding-left: 0px;
   }
 }
+
+/* The entire scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+/* The track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* color of the track */
+}
+
+/* The draggable part of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888; /* color of the thumb */
+  border-radius: 6px; /* rounded corners for the thumb */
+}
+
+/* The draggable part of the scrollbar when hovered */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* color of the thumb when hovered */
+}
+
+/* Custom scrollbar styling for a specific section */
+.custom-scrollbar-section {
+  width: 300px;
+  height: 200px;
+  overflow-y: scroll; /* adds vertical scrollbar */
+  background-color: #e0e0e0;
+  padding: 10px;
+}
+
+.custom-scrollbar-section::-webkit-scrollbar {
+  width: 10px;
+}
+
+.custom-scrollbar-section::-webkit-scrollbar-track {
+  background: #d4d4d4;
+}
+
+.custom-scrollbar-section::-webkit-scrollbar-thumb {
+  background-color: #6b6b6b;
+  border-radius: 5px;
+  border: 3px solid #d4d4d4;
+}
+
+.custom-scrollbar-section::-webkit-scrollbar-thumb:hover {
+  background: #4e4e4e;
+}
