@@ -397,7 +397,7 @@
   }
   .kioto_tm_modalbox .box_inner {
     width: 1000px;
-    border: green 3px solid;
+    border: #808080 3px solid;
   }
   .kioto_tm_modalbox .description_wrap {
     padding: 40px;
