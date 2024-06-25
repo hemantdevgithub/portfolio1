@@ -333,6 +333,7 @@
 .kioto_tm_modalbox .news_popup_informations .image {
   position: relative;
   margin-bottom: 30px;
+  height: 300px;
 }
 .kioto_tm_modalbox .news_popup_informations .image img {
   position: relative;
