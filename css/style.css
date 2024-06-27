@@ -1318,7 +1318,7 @@ a {
   font-size: 18px;
 }
 .kioto_tm_portfolio .portfolio_list .name a {
-  color: #000;
+  color: #0da578;
 }
 .kioto_tm_portfolio .portfolio_list .job a {
   color: var(--bc);
@@ -1972,4 +1972,8 @@ a {
 
 .custom-scrollbar-section::-webkit-scrollbar-thumb:hover {
   background: #4e4e4e;
+}
+
+.popup_details h3 {
+  color: #0ac083;
 }
